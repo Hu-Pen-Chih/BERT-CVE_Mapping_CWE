@@ -45,10 +45,9 @@ def read_data(file_path, column_name):
 
 # 文件路徑和欄位名稱
 files_columns = {
-    'All_CAPEC.csv': 'CAPEC-Description',
     'All_CWE.csv': 'CWE-Description',
-    '2023_CVE_CWE.csv': 'CVE-Description',
-    'cve_data_all_2000_to_2022.csv':'CVE-Description'
+    'Pretrain_data_200k.csv': 'CVE-Description',
+    'Pretrain_data_100k.csv':'CVE-Description'
 }
 
 # 載入數據
